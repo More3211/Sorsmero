@@ -255,13 +255,13 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-@MarkitAlIraQ
-@iiiik - @okooo
-@XFOBOT - @K_8kBOT
+تم الصيد (@{username})
+꩜ Attempts ↬  {trys}
+lD: @xxamer  
     ''')
-                    await event.client.send_message("@xxamer", f'''@MarkitAlIraQ
-@iiiik - @okooo
-@XFOBOT - @K_8kBOT''')
+                    await event.client.send_message("@xxamer", f''' ⌲ تم الصيد (@{username})
+꩜ Attempts ↬  {trys}
+lD: @xxamer ''') 
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -317,9 +317,9 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-@MarkitAlIraQ
-@iiiik - @okooo
-@XFOBOT - @K_8kBOT
+تم الصيد (@{username})
+꩜ 𝙼𝙰𝚇 ↬  {trys}
+lD: @P_i_0= @FCF300
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -350,9 +350,9 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-@MarkitAlIraQ
-@iiiik - @okooo
-@XFOBOT - @K_8kBOT
+تم الصيد (@{username})
+꩜ 𝙼𝙰𝚇 ↬  {trys}
+lD: @P_i_0= @FCF300
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
