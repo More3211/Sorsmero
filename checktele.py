@@ -258,7 +258,7 @@ async def _(event):
 تم الصيد (@{username})
 ꩜ Attempts ↬  {trys}
     ''')
-                    await event.client.send_message("@i_R_Y", f''' ⌲ تم الصيد (@{username})
+                    await event.client.send_message("@xxamer", f''' ⌲ تم الصيد (@{username})
 ꩜ Attempts ↬  {trys} ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
