@@ -257,11 +257,9 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 تم الصيد (@{username})
 ꩜ Attempts ↬  {trys}
-lD: @xxamer  
     ''')
-                    await event.client.send_message("@xxamer", f''' ⌲ تم الصيد (@{username})
-꩜ Attempts ↬  {trys}
-lD: @xxamer ''') 
+                    await event.client.send_message("@i_R_Y", f''' ⌲ تم الصيد (@{username})
+꩜ Attempts ↬  {trys} ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
