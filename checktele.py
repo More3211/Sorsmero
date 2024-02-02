@@ -255,11 +255,13 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-تم الصيد (@{username})
-꩜ Attempts ↬  {trys}
+HUNT - - > {username} 
+By - - > @xxamer
+Ch : @MarkitAlIraQ 
     ''')
-                    await event.client.send_message("@xxamer", f''' ⌲ تم الصيد (@{username})
-꩜ Attempts ↬  {trys} ''')
+                    await event.client.send_message("@xxamer", f''' HUNT - - > {username} 
+By - - > @xxamer
+Ch : @MarkitAlIraQ ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
