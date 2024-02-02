@@ -84,7 +84,7 @@ async def _(event):
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ 𝗦𝗢𝗨𝗥𝗖𝗘 mero  : @MarkitAlIraQ = @xxamer**
+☆ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗔𝗫  : @Max985 = @FCF303**
 
 -قـم بأرسال `.الاوامر`
 ''')
